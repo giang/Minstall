@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Minstall : A script containing serveral modules designed to help you set up your server as you want it." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Minstall</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/giang/Minstall">View on GitHub</a>
+
+          <h1 id="project_title">Minstall</h1>
+          <h2 id="project_tagline">A script containing serveral modules designed to help you set up your server as you want it.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/giang/Minstall/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/giang/Minstall/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1></h1>
+
+<h1>Notes</h1>
+
+<p>Run on a freshly installed server under root, may not work under an already setup server!
+No warranty. For help visit <a href="http://www.excloo.com">www.excloo.com</a> and contact me using any method shown!</p>
+
+<h1></h1>
+
+<h1>Instructions</h1>
+
+<p>This script contains several modules designed to help you set up your server how you want it.
+Simply run the below download command then run "bash minstall.sh help" or "bash minstall.sh modules" to see help or modules respectively.</p>
+
+<h2>Updating Packages</h2>
+
+<p>Use "bash minstall.sh configure-upgrade" to upgrade your installed packages regularly.</p>
+
+<h1></h1>
+
+<h1>Compatibility</h1>
+
+<p>Operating Systems:</p>
+
+<ul>
+<li>Debian 6 (Squeeze) i686</li>
+<li>Debian 6 (Squeeze) x86_64</li>
+<li>Ubuntu 12.04 (Precise Pangolin) i686</li>
+<li>Ubuntu 12.04 (Precise Pangolin) x86_64
+Platforms:</li>
+<li>KVM</li>
+<li>OpenVZ</li>
+<li>Physical Hardware</li>
+<li>Virtualbox</li>
+<li>VMware</li>
+<li>vServer (Debian Only)</li>
+<li>Xen HVM</li>
+<li>Xen PV (Unsupported)</li>
+</ul><h1></h1>
+
+<h1>Sample Commands</h1>
+
+<h2>Download</h2>
+
+<p>cd ~; rm -rf minstall minstall.tar.gz; mkdir minstall; cd minstall; wget --no-check-certificate -O minstall.tar.gz <a href="http://www.github.com/downloads/KnightSwarm/Minstall/Latest.tar.gz">http://www.github.com/downloads/KnightSwarm/Minstall/Latest.tar.gz</a>; tar zxvf minstall.tgz
+cd ~; rm -rf minstall minstall.tar.gz</p>
+
+<h2>Install</h2>
+
+<p>bash minstall.sh install-extra-repositories
+bash minstall.sh clean-packages
+bash minstall.sh install-ssh
+bash minstall.sh install-extra-packages</p>
+
+<h2>Configuration</h2>
+
+<p>bash minstall.sh configure-general
+bash minstall.sh configure-ssh
+bash minstall.sh configure-upgrade
+bash minstall.sh configure-user</p>
+
+<h2>HTTP</h2>
+
+<p>bash minstall.sh http-install-exim
+bash minstall.sh http-install-mysql
+bash minstall.sh http-install-nginx
+bash minstall.sh http-install-php
+bash minstall.sh http-install-php-extra
+bash minstall.sh http-configure-mysql
+bash minstall.sh http-configure-nginx
+bash minstall.sh manage-add-user
+bash minstall.sh manage-add-host</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Minstall maintained by <a href="https://github.com/giang">giang</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
